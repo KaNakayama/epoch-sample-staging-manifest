@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: api-app
-        image: kanakayama/epoch-sample-api:master.25fef7.20220707-141729
+        image: 943001175239.dkr.ecr.ap-northeast-1.amazonaws.com/epoch-test:master.efe373.20220707-173912
         ports:
         - name: http
           containerPort: 8000
